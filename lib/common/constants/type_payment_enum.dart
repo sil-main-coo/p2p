@@ -1,0 +1,4 @@
+enum TypePaymentEnum{
+  Bank,
+  VirtualWallet
+}

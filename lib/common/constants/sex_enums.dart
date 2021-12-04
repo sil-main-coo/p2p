@@ -1,0 +1,4 @@
+enum SexEnum{
+  F,
+  M
+}

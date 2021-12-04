@@ -1,0 +1,4 @@
+#Tue Aug 24 13:58:05 ICT 2021
+base.0=E\:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\dex\\productionRelease\\minifyProductionReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

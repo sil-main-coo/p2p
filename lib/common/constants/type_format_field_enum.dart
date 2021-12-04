@@ -1,0 +1,4 @@
+enum TypeFormatFieldEnum{
+  Text,
+  Media
+}

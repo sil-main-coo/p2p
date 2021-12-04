@@ -1,0 +1,481 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sphinx.p2p.borrower.p2p_borrower.dev"
+4    android:versionCode="1"
+5    android:versionName="1.0-dev" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:4:5-67
+14-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:firebase_analytics] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+15-->[:firebase_analytics] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:firebase_analytics] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-68
+16-->[:firebase_analytics] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-65
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-81
+17-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-78
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-66
+18-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-63
+19    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-81
+19-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-78
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+20-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+21-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+22
+23    <application
+23-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:6:5-63:19
+24        android:name="androidx.multidex.MultiDexApplication"
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.3.2] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\5f2b19bf7f5ec27479550e19defa49be\core-1.3.2\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:7:9-43
+28        android:label="@string/app_name"
+28-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:8:9-41
+29        android:supportsRtl="true" >
+29-->[com.facebook.android:facebook-android-sdk:5.15.3] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a4ce46d02801937f16d780c8c937a179\jetified-facebook-android-sdk-5.15.3\AndroidManifest.xml:28:18-44
+30        <activity
+30-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:9:9-40:20
+31            android:name="com.sphinx.p2p.borrower.p2p_borrower.MainActivity"
+31-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:10:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:11:13-163
+33            android:hardwareAccelerated="true"
+33-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:12:13-47
+34            android:launchMode="singleTop"
+34-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:13:13-43
+35            android:theme="@style/LaunchTheme"
+35-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:14:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:15:13-55
+37
+38            <!--
+39                 Specifies an Android theme to apply to this Activity as soon as
+40                 the Android process has started. This theme is visible to the user
+41                 while the Flutter UI initializes. After that, this theme continues
+42                 to determine the Window background behind the Flutter UI.
+43            -->
+44            <meta-data
+44-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:20:13-22:57
+45                android:name="io.flutter.embedding.android.NormalTheme"
+45-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:21:17-72
+46                android:resource="@style/NormalTheme" />
+46-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:22:17-54
+47            <!--
+48                 Displays an Android View that continues showing the launch screen
+49                 Drawable until Flutter paints its first frame, then this splash
+50                 screen fades out. A splash screen is useful to avoid any visual
+51                 gap between the end of Android's launch screen and the painting of
+52                 Flutter's first frame.
+53            -->
+54            <meta-data
+54-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:28:13-30:66
+55                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+55-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:29:17-81
+56                android:resource="@drawable/launch_background" />
+56-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:30:17-63
+57
+58            <intent-filter>
+58-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:32:13-35:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:33:17-69
+59-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:33:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:34:17-77
+61-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:34:27-74
+62            </intent-filter>
+63            <intent-filter>
+63-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:36:13-39:29
+64                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+64-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:37:17-69
+64-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:37:25-66
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:38:17-76
+66-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:38:27-73
+67            </intent-filter>
+68        </activity>
+69        <!--
+70             Don't delete the meta-data below.
+71             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+72        -->
+73        <meta-data
+73-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:43:9-45:33
+74            android:name="flutterEmbedding"
+74-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:44:13-44
+75            android:value="2" />
+75-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:45:13-30
+76        <meta-data
+76-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:47:9-49:54
+77            android:name="com.facebook.sdk.ApplicationId"
+77-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:48:13-58
+78            android:value="@string/facebook_app_id" />
+78-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:49:13-52
+79
+80        <activity
+80-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:50:9-53:48
+81            android:name="com.facebook.FacebookActivity"
+81-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:51:13-57
+82            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+82-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:52:13-97
+83            android:label="@string/app_name"
+83-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:53:13-45
+84            android:theme="@style/com_facebook_activity_theme" />
+84-->[com.facebook.android:facebook-common:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2c00f990ddc6752bfde5be507e1a0549\jetified-facebook-common-11.1.1\AndroidManifest.xml:33:13-63
+85        <activity
+85-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:54:9-62:21
+86            android:name="com.facebook.CustomTabActivity"
+86-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:55:13-58
+87            android:exported="true" >
+87-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:56:14-37
+88            <intent-filter>
+88-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:57:13-61:29
+89                <action android:name="android.intent.action.VIEW" />
+89-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:57:29-81
+89-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:57:37-78
+90
+91                <category android:name="android.intent.category.DEFAULT" />
+91-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:38:17-76
+91-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:38:27-73
+92                <category android:name="android.intent.category.BROWSABLE" />
+92-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:59:17-78
+92-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:59:27-75
+93
+94                <data android:scheme="@string/fb_login_protocol_scheme" />
+94-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:60:17-75
+94-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:60:23-72
+95            </intent-filter>
+96            <intent-filter>
+96-->[com.facebook.android:facebook-common:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2c00f990ddc6752bfde5be507e1a0549\jetified-facebook-common-11.1.1\AndroidManifest.xml:39:13-48:29
+97                <action android:name="android.intent.action.VIEW" />
+97-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:57:29-81
+97-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:57:37-78
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:38:17-76
+99-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:38:27-73
+100                <category android:name="android.intent.category.BROWSABLE" />
+100-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:59:17-78
+100-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:59:27-75
+101
+102                <data
+102-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:60:17-75
+103                    android:host="cct.com.sphinx.p2p.borrower.p2p_borrower.dev"
+104                    android:scheme="fbconnect" />
+104-->E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\android\app\src\main\AndroidManifest.xml:60:23-72
+105            </intent-filter>
+106        </activity>
+107
+108        <service
+108-->[:firebase_analytics] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-16:19
+109            android:name="com.google.firebase.components.ComponentDiscoveryService"
+109-->[:firebase_analytics] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:12:18-89
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2b0a70af29cfd6843ea950ad995f101a\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:51:13-37
+112            <meta-data
+112-->[:firebase_analytics] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:85
+113                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+113-->[:firebase_analytics] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-127
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[:firebase_analytics] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_analytics\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-82
+115            <meta-data
+115-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-36:85
+116                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+116-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:35:17-128
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:36:17-82
+118            <meta-data
+118-->[:firebase_core] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+119                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+119-->[:firebase_core] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[:firebase_core] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+122                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+122-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+124            <meta-data
+124-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0f3f421008be85c1eae3b448f8b9a593\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+125                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+125-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0f3f421008be85c1eae3b448f8b9a593\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0f3f421008be85c1eae3b448f8b9a593\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a09125ee8f664242776f7a291bbfb609\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+128                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+128-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a09125ee8f664242776f7a291bbfb609\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\a09125ee8f664242776f7a291bbfb609\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\88f5497588dc4512e2b1889a04a28be9\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+131                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+131-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\88f5497588dc4512e2b1889a04a28be9\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\88f5497588dc4512e2b1889a04a28be9\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+133        </service>
+134        <service
+134-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-15:72
+135            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+135-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-107
+136            android:exported="false"
+136-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+137            android:permission="android.permission.BIND_JOB_SERVICE" />
+137-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-69
+138        <service
+138-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-22:19
+139            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+139-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-97
+140            android:exported="false" >
+140-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+141            <intent-filter>
+141-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-21:29
+142                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+142-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-78
+142-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-75
+143            </intent-filter>
+144        </service>
+145
+146        <receiver
+146-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-31:20
+147            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+147-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-98
+148            android:exported="true"
+148-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-36
+149            android:permission="com.google.android.c2dm.permission.SEND" >
+149-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-73
+150            <intent-filter>
+150-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-30:29
+151                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+151-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-81
+151-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-78
+152            </intent-filter>
+153        </receiver>
+154
+155        <provider
+155-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:39:9-43:38
+156            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+156-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-102
+157            android:authorities="com.sphinx.p2p.borrower.p2p_borrower.dev.flutterfirebasemessaginginitprovider"
+157-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-88
+158            android:exported="false"
+158-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-37
+159            android:initOrder="99" />
+159-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-35
+160        <provider
+160-->[:image_picker] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-16:20
+161            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+161-->[:image_picker] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-82
+162            android:authorities="com.sphinx.p2p.borrower.p2p_borrower.dev.flutter.image_provider"
+162-->[:image_picker] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-74
+163            android:exported="false"
+163-->[:image_picker] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-37
+164            android:grantUriPermissions="true" >
+164-->[:image_picker] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-47
+165            <meta-data
+165-->[:image_picker] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-15:75
+166                android:name="android.support.FILE_PROVIDER_PATHS"
+166-->[:image_picker] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:17-67
+167                android:resource="@xml/flutter_image_picker_file_paths" />
+167-->[:image_picker] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-72
+168        </provider>
+169
+170        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver" />
+170-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-106
+170-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-103
+171        <receiver android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver" >
+171-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-20:20
+171-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-107
+172            <intent-filter>
+172-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-19:29
+173                <action android:name="android.intent.action.BOOT_COMPLETED" />
+173-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-79
+173-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:15:25-76
+174                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+174-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-84
+174-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:16:25-81
+175                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+175-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-82
+175-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:17:25-79
+176                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+176-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-82
+176-->[:flutter_local_notifications] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\flutter_local_notifications\intermediates\library_manifest\debug\AndroidManifest.xml:18:25-79
+177            </intent-filter>
+178        </receiver>
+179
+180        <activity
+180-->[:url_launcher] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+181            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+181-->[:url_launcher] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+182            android:exported="false"
+182-->[:url_launcher] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+183            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+183-->[:url_launcher] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+184        <activity android:name="com.facebook.CustomTabMainActivity" />
+184-->[com.facebook.android:facebook-common:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2c00f990ddc6752bfde5be507e1a0549\jetified-facebook-common-11.1.1\AndroidManifest.xml:34:9-71
+184-->[com.facebook.android:facebook-common:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2c00f990ddc6752bfde5be507e1a0549\jetified-facebook-common-11.1.1\AndroidManifest.xml:34:19-68
+185        <!--
+186         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+187         with the application context. This config is merged in with the host app's manifest,
+188         but there can only be one provider with the same authority activated at any given
+189         point; so if the end user has two or more different apps that use Facebook SDK, only the
+190         first one will be able to use the provider. To work around this problem, we use the
+191         following placeholder in the authority to identify each host application as if it was
+192         a completely different provider.
+193        -->
+194        <provider
+194-->[com.facebook.android:facebook-core:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\efe13f7f24f2a7697acbc4c526f48470\jetified-facebook-core-11.1.1\AndroidManifest.xml:39:9-42:40
+195            android:name="com.facebook.internal.FacebookInitProvider"
+195-->[com.facebook.android:facebook-core:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\efe13f7f24f2a7697acbc4c526f48470\jetified-facebook-core-11.1.1\AndroidManifest.xml:40:13-70
+196            android:authorities="com.sphinx.p2p.borrower.p2p_borrower.dev.FacebookInitProvider"
+196-->[com.facebook.android:facebook-core:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\efe13f7f24f2a7697acbc4c526f48470\jetified-facebook-core-11.1.1\AndroidManifest.xml:41:13-72
+197            android:exported="false" />
+197-->[com.facebook.android:facebook-core:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\efe13f7f24f2a7697acbc4c526f48470\jetified-facebook-core-11.1.1\AndroidManifest.xml:42:13-37
+198
+199        <receiver
+199-->[com.facebook.android:facebook-core:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\efe13f7f24f2a7697acbc4c526f48470\jetified-facebook-core-11.1.1\AndroidManifest.xml:44:9-50:20
+200            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+200-->[com.facebook.android:facebook-core:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\efe13f7f24f2a7697acbc4c526f48470\jetified-facebook-core-11.1.1\AndroidManifest.xml:45:13-86
+201            android:exported="false" >
+201-->[com.facebook.android:facebook-core:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\efe13f7f24f2a7697acbc4c526f48470\jetified-facebook-core-11.1.1\AndroidManifest.xml:46:13-37
+202            <intent-filter>
+202-->[com.facebook.android:facebook-core:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\efe13f7f24f2a7697acbc4c526f48470\jetified-facebook-core-11.1.1\AndroidManifest.xml:47:13-49:29
+203                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+203-->[com.facebook.android:facebook-core:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\efe13f7f24f2a7697acbc4c526f48470\jetified-facebook-core-11.1.1\AndroidManifest.xml:48:17-95
+203-->[com.facebook.android:facebook-core:11.1.1] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\efe13f7f24f2a7697acbc4c526f48470\jetified-facebook-core-11.1.1\AndroidManifest.xml:48:25-92
+204            </intent-filter>
+205        </receiver>
+206        <receiver
+206-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+207            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+207-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+208            android:exported="true"
+208-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+209            android:permission="com.google.android.c2dm.permission.SEND" >
+209-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+210            <intent-filter>
+210-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-30:29
+211                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+211-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-81
+211-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-78
+212            </intent-filter>
+213        </receiver>
+214        <!--
+215             FirebaseMessagingService performs security checks at runtime,
+216             but set to not exported to explicitly avoid allowing another app to call it.
+217        -->
+218        <service
+218-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+219            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+219-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+220            android:directBootAware="true"
+220-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+221            android:exported="false" >
+221-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\3ba1d32756c2658b01648acc9bcbefd6\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+222            <intent-filter android:priority="-500" >
+222-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-21:29
+223                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+223-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:17-78
+223-->[:firebase_messaging] E:\WorkSpace\Sphinx\P2P Lending\p2p_borrower\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:20:25-75
+224            </intent-filter>
+225        </service>
+226
+227        <provider
+227-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2b0a70af29cfd6843ea950ad995f101a\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+228            android:name="com.google.firebase.provider.FirebaseInitProvider"
+228-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2b0a70af29cfd6843ea950ad995f101a\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+229            android:authorities="com.sphinx.p2p.borrower.p2p_borrower.dev.firebaseinitprovider"
+229-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2b0a70af29cfd6843ea950ad995f101a\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+230            android:directBootAware="true"
+230-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2b0a70af29cfd6843ea950ad995f101a\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+231            android:exported="false"
+231-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2b0a70af29cfd6843ea950ad995f101a\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+232            android:initOrder="100" />
+232-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\2b0a70af29cfd6843ea950ad995f101a\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+233
+234        <receiver
+234-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+235            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+235-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+236            android:enabled="true"
+236-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+237            android:exported="false" >
+237-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+238        </receiver>
+239
+240        <service
+240-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+241            android:name="com.google.android.gms.measurement.AppMeasurementService"
+241-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+242            android:enabled="true"
+242-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+243            android:exported="false" />
+243-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+244        <service
+244-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+245            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+245-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+246            android:enabled="true"
+246-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+247            android:exported="false"
+247-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+248            android:permission="android.permission.BIND_JOB_SERVICE" />
+248-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\0d0aceaf4f9cb2aaedf8bf8c1b1390ff\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+249
+250        <meta-data
+250-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4a0974a9ac11a93a3ac0a5cc3dafabcb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+251            android:name="com.google.android.gms.version"
+251-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4a0974a9ac11a93a3ac0a5cc3dafabcb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+252            android:value="@integer/google_play_services_version" />
+252-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\4a0974a9ac11a93a3ac0a5cc3dafabcb\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+253
+254        <service
+254-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\95358bf43a4449df17a17777ec6cbbab\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+255            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+255-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\95358bf43a4449df17a17777ec6cbbab\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+256            android:exported="false" >
+256-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\95358bf43a4449df17a17777ec6cbbab\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+257            <meta-data
+257-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\95358bf43a4449df17a17777ec6cbbab\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+258                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+258-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\95358bf43a4449df17a17777ec6cbbab\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+259                android:value="cct" />
+259-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\95358bf43a4449df17a17777ec6cbbab\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+260        </service>
+261        <service
+261-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b401a3dde390d17b5756304efc8b3ad1\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+262            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+262-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b401a3dde390d17b5756304efc8b3ad1\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+263            android:exported="false"
+263-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b401a3dde390d17b5756304efc8b3ad1\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+264            android:permission="android.permission.BIND_JOB_SERVICE" >
+264-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b401a3dde390d17b5756304efc8b3ad1\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+265        </service>
+266
+267        <receiver
+267-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b401a3dde390d17b5756304efc8b3ad1\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+268            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+268-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b401a3dde390d17b5756304efc8b3ad1\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+269            android:exported="false" />
+269-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\Admin\.gradle\caches\transforms-2\files-2.1\b401a3dde390d17b5756304efc8b3ad1\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+270    </application>
+271
+272</manifest>

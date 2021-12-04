@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/sphinx/p2p/borrower/p2p_borrower/BuildConfig.java
+ com.sphinx.p2p.borrower.p2p_borrower.BuildConfig

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "COMPATIBLE_SCREEN_MANIFEST",
+    "kind": "Directory"
+  },
+  "applicationId": "com.sphinx.p2p.borrower.p2p_borrower.staging",
+  "variantName": "stagingRelease",
+  "elements": []
+}

@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-hdpi_mony_logo.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-hdpi\\mony_logo.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-mdpi_splash_text.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-mdpi\\splash_text.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-xhdpi_splash_text.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-xhdpi\\splash_text.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\drawable_launch_background.xml.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\drawable\\launch_background.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-hdpi_splash_text.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-hdpi\\splash_text.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\drawable-v21_launch_background.xml.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\drawable-v21\\launch_background.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-xxhdpi_mony_logo.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\mony_logo.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-mdpi_mony_logo.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-mdpi\\mony_logo.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-xxhdpi_splash_text.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\splash_text.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-xhdpi_mony_logo.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-xhdpi\\mony_logo.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-xxxhdpi_mony_logo.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\mony_logo.png"
+    },
+    {
+        "merged": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\build\\app\\intermediates\\res\\merged\\development\\debug\\mipmap-xxxhdpi_splash_text.png.flat",
+        "source": "E:\\WorkSpace\\Sphinx\\P2P Lending\\p2p_borrower\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\splash_text.png"
+    }
+]

@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "779339189678",
+    "project_id": "p2pl-f5d91",
+    "storage_bucket": "p2pl-f5d91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779339189678:android:2b5d89c544af2802340c3f",
+        "android_client_info": {
+          "package_name": "com.sphinx.p2p.borrower.p2p_borrower"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779339189678-8oh3pur7qsopk8erkihnjep6r05h6fp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO2IuHFOQjNd38OlIbI4_-uYHs2jRH_Nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779339189678-8oh3pur7qsopk8erkihnjep6r05h6fp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779339189678:android:2af3d9261a2df630340c3f",
+        "android_client_info": {
+          "package_name": "com.sphinx.p2p.borrower.p2p_borrower.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779339189678-8oh3pur7qsopk8erkihnjep6r05h6fp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO2IuHFOQjNd38OlIbI4_-uYHs2jRH_Nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779339189678-8oh3pur7qsopk8erkihnjep6r05h6fp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779339189678:android:31ee9e0ce13b432a340c3f",
+        "android_client_info": {
+          "package_name": "com.sphinx.p2p.borrower.p2p_borrower.staging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779339189678-8oh3pur7qsopk8erkihnjep6r05h6fp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO2IuHFOQjNd38OlIbI4_-uYHs2jRH_Nc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779339189678-8oh3pur7qsopk8erkihnjep6r05h6fp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
